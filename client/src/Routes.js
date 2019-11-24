@@ -1,14 +1,14 @@
-import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
-import Home from "./views/Home";
-import About from "./views/About";
-import Blog from "./views/Blog";
-import Wiki from "./views/Wiki";
-import Newsletter from "./views/Newsletter";
-import Resources from "./views/Resources";
-import Contribute from "./views/Contribute";
-import NotFound from "./views/NotFound";
+import Home from './views/Home';
+import About from './views/About';
+import Blog from './views/Blog';
+import Wiki from './views/Wiki';
+import Newsletter from './views/Newsletter';
+import Resources from './views/Resources';
+import Contribute from './views/Contribute';
+import NotFound from './views/NotFound';
 
 const Routes = () => {
   return (
