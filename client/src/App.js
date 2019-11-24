@@ -6,17 +6,18 @@ import { BrowserRouter } from 'react-router-dom';
 import AppBar from 'components/AppBar';
 import theme from 'assets/theme';
 import Routes from 'Routes';
+import GlobalWrapper from './styles';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <div style={{ marginTop: '64px' }}>
+      <GlobalWrapper>
         <BrowserRouter>
           <AppBar />
           <Routes />
         </BrowserRouter>
-      </div>
+      </GlobalWrapper>
     </ThemeProvider>
   );
 }
