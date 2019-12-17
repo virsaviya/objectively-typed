@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Wiki() {
-  return <div>Wiki here</div>;
+  return (
+    <div>
+      <h1>Coming Soon!!!</h1>
+    </div>
+  );
 }
 
 export default Wiki;
