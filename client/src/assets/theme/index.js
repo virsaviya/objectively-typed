@@ -6,7 +6,10 @@ import overrides from './overrides';
 
 const theme = createMuiTheme({
   palette,
-  typography,
+  typography: {
+    ...typography,
+    fontFamily: 'NunitoSans, Arial',
+  },
   overrides,
   zIndex: {
     appBar: 1200,
