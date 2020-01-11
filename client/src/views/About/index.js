@@ -1,7 +1,12 @@
 import React from 'react';
+import FauxContent from 'components/FauxContent';
 
-function About() {
-  return <div>About here</div>;
-}
+const About = () => {
+  return (
+    <div>
+      <FauxContent title="About" />
+    </div>
+  );
+};
 
 export default About;

@@ -1,7 +1,12 @@
 import React from 'react';
+import FauxContent from 'components/FauxContent';
 
-function Contribute() {
-  return <div>Contribute here</div>;
-}
+const Contribute = () => {
+  return (
+    <div>
+      <FauxContent title="Contribute" />
+    </div>
+  );
+};
 
 export default Contribute;

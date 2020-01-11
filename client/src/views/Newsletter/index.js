@@ -1,7 +1,12 @@
 import React from 'react';
+import FauxContent from 'components/FauxContent';
 
-function Newsletter() {
-  return <div>Newsletter here</div>;
-}
+const Newsletter = () => {
+  return (
+    <div>
+      <FauxContent title="Newsletter" />
+    </div>
+  );
+};
 
 export default Newsletter;

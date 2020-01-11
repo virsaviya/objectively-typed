@@ -1,7 +1,12 @@
 import React from 'react';
+import FauxContent from 'components/FauxContent';
 
-function Resources() {
-  return <div>Resources here</div>;
-}
+const Resources = () => {
+  return (
+    <div>
+      <FauxContent title="Resources" />
+    </div>
+  );
+};
 
 export default Resources;
