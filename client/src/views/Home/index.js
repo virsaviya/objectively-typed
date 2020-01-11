@@ -1,10 +1,12 @@
 import React from 'react';
-import FauxContent from 'components/FauxContent';
+// import FauxContent from 'components/FauxContent';
+import Logo from 'components/Logo';
 
 const Home = () => {
   return (
     <div>
-      <FauxContent title="Home" />
+      {/* <FauxContent title="Home" /> */}
+      <Logo />
     </div>
   );
 };
