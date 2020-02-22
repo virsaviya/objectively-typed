@@ -10,8 +10,6 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* width: 2000px;
-  height: 2000px; */
   background-image: url(${background});
   background-repeat: no-repeat;
   background-position: center center;
